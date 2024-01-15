@@ -121,10 +121,7 @@ namespace ClubMateNotifier{
 
         [JsonPropertyName("measurement_unit_abbreviation")]
         public object MeasurementUnitAbbreviation { get; set; }
-
-        [JsonPropertyName("price")]
-        public Price Price { get; set; }
-
+        
         [JsonPropertyName("on_sale")]
         public bool OnSale { get; set; }
 
